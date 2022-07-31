@@ -1,0 +1,32 @@
+body {
+  margin: 40vh 2vw;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-image: url(https://yt3.ggpht.com/a/AATXAJx8R5jCuqmm57RW30T4TqX6GLdbjNh8TjHlKg=s900-c-k-c0xffffffff-no-rj-mo);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+button {
+  height: 8rem;
+  border-radius: 15px;
+}
+
+button:nth-child(3n) {
+  background-color: #AEBC3B;
+}
+
+button:nth-child(3n+1) {
+  background-color: #DE8944;
+}
+
+button:nth-child(3n+2) {
+  background-color: #3E68B1;
+}
